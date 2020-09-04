@@ -3,7 +3,7 @@ Library     SeleniumLibrary
 Library     OperatingSystem
 Library     Collections
 Library     DateTime
-Resource    login.robot
+Resource    ../Resources/login.robot
 
 *** Variables ***
 

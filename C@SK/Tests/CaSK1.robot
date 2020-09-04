@@ -1,7 +1,7 @@
 *** Settings ***
 Resource  ../Resources/common.robot
 
-Suite Setup  Open cask  DZCPGLO_T024  Testing2030!
+Suite Setup  login.Open Cask  DZCPGLO_T024  Testing2030!
 
 *** Variables ***
 

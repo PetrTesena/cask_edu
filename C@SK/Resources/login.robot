@@ -1,12 +1,12 @@
 *** Settings ***
-Resource  common.robot
+Resource  ../Resources/common.robot
 
 *** Variables ***
 ${LDAP}         DZCJNLO
 ${LDAP_PASS}    Testing2019!
 
 *** Keywords ***
-Log in to C@SK
+Open Cask
     [Arguments]  ${user}  ${password}  ${role}=${EMPTY}
 #1) open browser, go to ldap page, input ${LDAP}+${LDAP_PASS} and confirm
 #2) input user and password (already prepared)
